@@ -1,3 +1,10 @@
+# Notes
+
+- Didn't enjoy working with Sequelize for 2 reasons:
+  - No built in TS and ES6/7 support.
+  - No good way to edit an existing model.
+- Therefore I'm moving on to TypeORM.
+
 # Setup
 
 Ensure `npm install -g sequelize-cli` for global install. Then:
@@ -28,6 +35,7 @@ sequelize db:migrate
 
 # Questions I had:
 1. Sequelize docs generate db fields in camelCase. Don't think that's ideal.
+2. How to edit an existing model in Sequelize?
 
 
 # Considerations:
